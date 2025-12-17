@@ -27,7 +27,7 @@ export default function LoginForm() {
 						</label>
 						<div className="relative">
 							<input
-								className="peer block w-full bg-black rounded-md border border-zinc-800 py-[9px] pl-10 text-sm focus:border-blue-500 placeholder:text-gray-500"
+								className="peer block w-full bg-black rounded-md border border-zinc-800 py-2.25 pl-10 text-sm focus:border-blue-500 placeholder:text-gray-500"
 								id="email"
 								type="email"
 								name="email"
@@ -35,7 +35,7 @@ export default function LoginForm() {
 								required
 								defaultValue={"user@nextmail.com"}
 							/>
-							<AtSymbolIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
+							<AtSymbolIcon className="pointer-events-none absolute left-3 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
 						</div>
 					</div>
 					<div className="mt-4">
@@ -46,7 +46,7 @@ export default function LoginForm() {
 						</label>
 						<div className="relative">
 							<input
-								className="peer block w-full bg-black rounded-md border border-zinc-800 py-[9px] pl-10 text-sm focus:border-blue-500 placeholder:text-gray-500"
+								className="peer block w-full bg-black rounded-md border border-zinc-800 py-2.25 pl-10 text-sm focus:border-blue-500 placeholder:text-gray-500"
 								id="password"
 								type="password"
 								name="password"
@@ -55,7 +55,7 @@ export default function LoginForm() {
 								minLength={6}
 								defaultValue={"1248163264"}
 							/>
-							<KeyIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
+							<KeyIcon className="pointer-events-none absolute left-3 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
 						</div>
 					</div>
 					<p className="mt-4 text-xs">

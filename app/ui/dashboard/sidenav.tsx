@@ -17,7 +17,7 @@ export default function SideNav() {
 						"use server";
 						await signOut({ redirectTo: "/" });
 					}}>
-					<button className="flex h-[48px] w-full grow items-center justify-center gap-2 rounded-md p-3 text-sm font-medium hover:bg-blue-400/10 hover:text-blue-400 md:flex-none md:justify-start md:p-2 md:px-3">
+					<button className="flex h-12 w-full grow items-center justify-center gap-2 rounded-md p-3 text-sm font-medium hover:bg-blue-400/10 hover:text-blue-400 md:flex-none md:justify-start md:p-2 md:px-3">
 						<PowerIcon className="w-6" />
 						<div className="hidden md:block">Sign Out</div>
 					</button>

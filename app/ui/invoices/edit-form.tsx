@@ -47,7 +47,7 @@ export default function EditInvoiceForm({
 								</option>
 							))}
 						</select>
-						<UserCircleIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
+						<UserCircleIcon className="pointer-events-none absolute left-3 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
 					</div>
 					<div id="customer-error" aria-live="polite" aria-atomic="true">
 						{state.errors?.customerId &&
@@ -76,7 +76,7 @@ export default function EditInvoiceForm({
 								className="peer block w-full bg-black rounded-md border border-zinc-800 py-2 pl-10 text-sm placeholder:text-gray-500"
 								aria-describedby="amount-error"
 							/>
-							<CurrencyDollarIcon className="pointer-events-none absolute left-3 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
+							<CurrencyDollarIcon className="pointer-events-none absolute left-3 top-1/2 h-4.5 w-4.5 -translate-y-1/2 text-gray-500 peer-focus:text-blue-500" />
 						</div>
 					</div>
 					<div id="amount-error" aria-live="polite" aria-atomic="true">
@@ -94,7 +94,7 @@ export default function EditInvoiceForm({
 					<legend className="mb-2 block text-sm font-medium">
 						Set the invoice status
 					</legend>
-					<div className="px-[14px] py-3">
+					<div className="px-3.5 py-3">
 						<div className="flex gap-4">
 							<div className="flex items-center">
 								<input
