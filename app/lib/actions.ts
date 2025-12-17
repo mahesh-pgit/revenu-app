@@ -60,6 +60,7 @@ const createInvoice = async (prevState: State, formData: FormData) => {
 
 	// Revalidate the cache for the invoices page and redirect the user.
 	revalidatePath("/dashboard/invoices");
+	revalidatePath("/dashboard");
 	redirect("/dashboard/invoices");
 };
 
@@ -91,6 +92,7 @@ const updateInvoice = async (id: string, prevState: State, formData: FormData) =
 	}
 
 	revalidatePath("/dashboard/invoices");
+	revalidatePath("/dashboard");
 	redirect("/dashboard/invoices");
 };
 
@@ -103,6 +105,7 @@ const deleteInvoice = async (id: string) => {
 	}
 
 	revalidatePath("/dashboard/invoices");
+	revalidatePath("/dashboard");
 };
 
 const authenticate = async (prevState: string | undefined, formData: FormData) => {
